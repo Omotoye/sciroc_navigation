@@ -2,7 +2,7 @@
 <img src="images/unige.png" width="20%" height="20%" title="University of Genoa" alt="University of Genoa" >
 </a>
 <a href="https://sciroc.org/2021-challenge-description/">
-<img src="images/sciroc-logo.png" width="20%" height="20%" title="SciRoc Challenge 2021" alt="SciRoc Challenge 2021" >
+<img src="images/sciroc-logo.png" width="30%" height="30%" title="SciRoc Challenge 2021" alt="SciRoc Challenge 2021" >
 </a>
 
 # SciRoc Challenge 2021 (Robotics Engineering / JEMARO, Unige)
@@ -27,6 +27,6 @@ string result
 ```python
 rospy.has_param('/mmap/poi/submap_0/{goal}'.format(goal=req.goal))
 ```
-if the _yes_, it then sends the point of interest to an already provided action server called _**go_to_poi**_; this action server help to navigate to the corresponding point. 
+if the _yes_, it then sends the point of interest to an already provided action server called _**go_to_poi**_, this action server helps the **TIAGO robot** to navigate to the corresponding point. 
 
 
