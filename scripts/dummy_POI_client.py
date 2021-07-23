@@ -1,10 +1,14 @@
 #! /usr/bin/env python
 
 import rospy
+
+# Brings in the messages used by the go_to_poi service
 from sciroc_navigation.srv import GoToPOI 
 
 
 def call_POI_service():
+	"""To initialize and call the go_to_poi service 
+	"""
 	rospy.wait_for_service('go_to_poi_service')
 	try:
 		poi_ = raw_input("Enter a Valid Point of Interest: ")
